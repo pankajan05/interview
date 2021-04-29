@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { DataviewerComponent } from './dataviewer/dataviewer.component';
 import { FooterComponent } from './footer/footer.component';
+import { TopbarComponent } from './topbar/topbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FooterComponent } from './footer/footer.component';
     NavComponent,
     HomeComponent,
     DataviewerComponent,
-    FooterComponent
+    FooterComponent,
+    TopbarComponent
   ],
   exports: [
     HomeComponent,

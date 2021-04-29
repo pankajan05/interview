@@ -1,5 +1,8 @@
 <div id="wrapper">
   <app-nav></app-nav>
-<router-outlet></router-outlet>
-<app-footer></app-footer>
+  <div id="content-wrapper" class="d-flex flex-column">
+    <app-topbar></app-topbar>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+  </div>
 </div>
