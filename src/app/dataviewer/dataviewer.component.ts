@@ -25,4 +25,17 @@ export class DataviewerComponent implements OnInit {
   }
 
 
+  add(i: number) {
+    this.items.push({size: '7500', category: 'fitness equipement', Employee: 'dilshan', location: 'purchasing', pipeline: 'ezuitesale', stage: 'ProductDemo', lastupdate: '2020-12-03 04:23:43'});
+  }
+
+  edit(i: number) {
+
+  }
+
+  remove(i: number) {
+    this.items.forEach((element, index) => {
+      if (index === i) { this.items.splice(index, 1); }
+    });
+  }
 }
