@@ -4,6 +4,7 @@ import {HomeComponent} from './home/home.component';
 import {DataviewerComponent} from './dataviewer/dataviewer.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: '/home', pathMatch: 'full'},
   { path: 'home', component: HomeComponent },
   { path: 'data', component: DataviewerComponent }
 ];
